@@ -1,0 +1,35 @@
+<view class="head">
+  <image src="cloud://wxxc-5bc915.7778-wxxc-5bc915/logo.jpg" class="head-img"></image>
+  <text>东城建材装饰</text>
+</view>
+<view class="info-list">
+  <view class="info-item" bindtap="location">
+    <image class="item-icon" src="../../images/address.png"></image>
+    <text class="weui-cell__bd">东城家具建材汇展中心</text>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </view>
+  <view class="info-item">
+    <image class="item-icon" src="../../images/clock.png"></image>
+    <text class="weui-cell__bd">8:00-19:00</text>
+  </view>
+  <view class="info-item" bindtap="calling">
+    <image class="item-icon" src="../../images/tel.png"></image>
+    <text class="weui-cell__bd">15296641988</text>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </view>
+  <!--<view class="info-item" bindtap="wanting">
+    <image class="item-icon" src="../../images/alert.png"></image>
+    <text class="weui-cell__bd">想做小程序</text>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </view>
+ <!-- <view class="info-item">    
+    <button class="weui-cell__bd" open-type="contact" >联系客服</button>
+  </view>-->
+
+  <view class="info-item">    
+    <button class="weui-cell__bd" bindtap="share">分享</button>
+  </view>
+
+  <image src="{{shareImage}}" mode="aspectFill" />
+
+</view>

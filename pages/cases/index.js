@@ -1,0 +1,24 @@
+/*index.js*/
+//获取应用实例
+const app = getApp()
+var util = require('../../utils/util.js');
+Page({  
+  data: {    
+    imgalist: [{ "barCode": "", "categoryId": 6218, "characteristic": "卫生间镁钛门", "commission": 0.00, "commissionType": 0, "dateAdd": "2018-01-18 13:52:11", "dateStart": "2018-01-18 13:51:53", "dateUpdate": "2018-01-18 13:52:19", "gotScore": 0, "gotScoreType": 0, "id": 19132, "kanjia": false, "kanjiaPrice": 0.00, "logisticsId": 0, "minPrice": 0.00, "minScore": 0, "name": "卫生间镁钛门", "numberFav": 0, "numberGoodReputation": 0, "numberOrders": 0, "numberSells": 0, "originalPrice": 0.00, "paixu": 0, "pic": "cloud://wxxc-5bc915.7778-wxxc-5bc915/20181221150440.jpg", "pingtuan": false, "pingtuanPrice": 0.00, "recommendStatus": 0, "recommendStatusStr": "普通", "shopId": 0, "status": 0, "statusStr": "上架", "stores": 0, "userId": 3387, "videoId": "", "views": 0, "weight": 0.00 }, { "barCode": "", "categoryId": 6218, "characteristic": "电视背景墙", "commission": 0.00, "commissionType": 0, "dateAdd": "2018-01-18 13:51:43", "dateStart": "2018-01-18 13:51:23", "dateUpdate": "2018-01-18 13:51:50", "gotScore": 0, "gotScoreType": 0, "id": 19131, "kanjia": false, "kanjiaPrice": 0.00, "logisticsId": 0, "minPrice": 0.00, "minScore": 0, "name": "电视背景墙", "numberFav": 0, "numberGoodReputation": 0, "numberOrders": 0, "numberSells": 0, "originalPrice": 0.00, "paixu": 0, "pic": "cloud://wxxc-5bc915.7778-wxxc-5bc915/20181221150443.jpg", "pingtuan": false, "pingtuanPrice": 0.00, "recommendStatus": 0, "recommendStatusStr": "普通", "shopId": 0, "status": 0, "statusStr": "上架", "stores": 0, "userId": 3387, "videoId": "", "views": 0, "weight": 0.00 }, { "barCode": "", "categoryId": 6218, "characteristic": "电视背景墙", "commission": 0.00, "commissionType": 0, "dateAdd": "2018-01-18 13:51:06", "dateStart": "2018-01-18 13:50:49", "gotScore": 0, "gotScoreType": 0, "id": 19130, "kanjia": false, "kanjiaPrice": 0.00, "logisticsId": 0, "minPrice": 0.00, "minScore": 0, "name": "推拉门", "numberFav": 0, "numberGoodReputation": 0, "numberOrders": 0, "numberSells": 0, "originalPrice": 0.00, "paixu": 0, "pic": "cloud://wxxc-5bc915.7778-wxxc-5bc915/20181221150653.jpg", "pingtuan": false, "pingtuanPrice": 0.00, "recommendStatus": 0, "recommendStatusStr": "普通", "shopId": 0, "status": 0, "statusStr": "上架", "stores": 0, "userId": 3387, "videoId": "", "views": 0, "weight": 0.00 }, { "barCode": "", "categoryId": 6218, "characteristic": "推拉门", "commission": 0.00, "commissionType": 0, "dateAdd": "2018-01-18 13:50:47", "dateStart": "2018-01-18 13:50:28", "dateUpdate": "2018-01-18 13:51:14", "gotScore": 0, "gotScoreType": 0, "id": 19128, "kanjia": false, "kanjiaPrice": 0.00, "logisticsId": 0, "minPrice": 0.00, "minScore": 0, "name": "套装门", "numberFav": 0, "numberGoodReputation": 0, "numberOrders": 0, "numberSells": 0, "originalPrice": 0.00, "paixu": 0, "pic": "cloud://wxxc-5bc915.7778-wxxc-5bc915/20181221150709.jpg", "pingtuan": false, "pingtuanPrice": 0.00, "recommendStatus": 0, "recommendStatusStr": "普通", "shopId": 0, "status": 0, "statusStr": "上架", "stores": 0, "userId": 3387, "videoId": "", "views": 0, "weight": 0.00 }, { "barCode": "", "categoryId": 6218, "characteristic": "套装门", "commission": 0.00, "commissionType": 0, "dateAdd": "2018-01-18 13:50:25", "dateStart": "2018-01-18 13:49:59", "gotScore": 0, "gotScoreType": 0, "id": 19127, "kanjia": false, "kanjiaPrice": 0.00, "logisticsId": 0, "minPrice": 0.00, "minScore": 0, "name": "衣柜门", "numberFav": 0, "numberGoodReputation": 0, "numberOrders": 0, "numberSells": 0, "originalPrice": 0.00, "paixu": 0, "pic": "cloud://wxxc-5bc915.7778-wxxc-5bc915/20181221150623.jpg", "pingtuan": false, "pingtuanPrice": 0.00, "recommendStatus": 0, "recommendStatusStr": "普通", "shopId": 0, "status": 0, "statusStr": "上架", "stores": 0, "userId": 3387, "videoId": "", "views": 0, "weight": 0.00 }, { "barCode": "", "categoryId": 6218, "characteristic": "衣柜门", "commission": 0.00, "commissionType": 0, "dateAdd": "2018-01-18 13:49:55", "dateStart": "2018-01-18 13:49:38", "gotScore": 0, "gotScoreType": 0, "id": 19126, "kanjia": false, "kanjiaPrice": 0.00, "logisticsId": 0, "minPrice": 0.00, "minScore": 0, "name": "木工", "numberFav": 0, "numberGoodReputation": 0, "numberOrders": 0, "numberSells": 0, "originalPrice": 0.00, "paixu": 0, "pic": "cloud://wxxc-5bc915.7778-wxxc-5bc915/20181221150701.jpg", "pingtuan": false, "pingtuanPrice": 0.00, "recommendStatus": 0, "recommendStatusStr": "普通", "shopId": 0, "status": 0, "statusStr": "上架", "stores": 0, "userId": 3387, "videoId": "", "views": 0, "weight": 0.00 }]
+	},
+	onLoad: function(){
+		var _this = this;
+		// 案例列表获取
+	    util.requestFun({
+	    //  url: 'shop/goods/list?categoryId=6218&pageSize=6',
+	      success: function(res){
+	        _this.setData({
+	         // imgalist : res.data.data
+	        })
+	      }
+	    })
+	},
+	showImages:function(event){
+    app.showImages(event, this.data.imgalist)
+  } 
+})
