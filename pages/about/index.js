@@ -33,7 +33,7 @@ Page({
       latitude: 112.772369,
       longitude: 37.677809,
       scale: 28,
-      name: "东城装饰装潢",
+      name: "福旺整体装修",
       address: "东城家具建材汇展中心"
     })
   },

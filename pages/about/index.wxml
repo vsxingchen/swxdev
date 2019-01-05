@@ -1,6 +1,6 @@
 <view class="head">
-  <image src="cloud://wxxc-5bc915.7778-wxxc-5bc915/logo.jpg" class="head-img"></image>
-  <text>东城建材装饰</text>
+  <image src="cloud://wj-38d226.776a-wj-38d226/logo.jpg" class="head-img"></image>
+  <text>福旺整体装修</text>
 </view>
 <view class="info-list">
   <view class="info-item" bindtap="location">
