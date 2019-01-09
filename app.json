@@ -7,6 +7,7 @@
     "pages/models/index",
     "pages/about/index",
     "pages/news/index",
+    "pages/decoration/index",
     "pages/newsDetail/index"
   ],
   "window":{
@@ -31,11 +32,16 @@
       "selectedIconPath": "images/footer-icon-02-active.png",
       "text": "产品中心"
     }, {
+      "pagePath": "pages/decoration/index",
+      "iconPath": "images/footer-icon-03.png",
+      "selectedIconPath": "images/footer-icon-03-active.png",
+      "text": "整体装修"
+    }, {
       "pagePath": "pages/cases/index",
       "iconPath": "images/footer-icon-03.png",
       "selectedIconPath": "images/footer-icon-03-active.png",
       "text": "客户案例"
-    }, {
+    },{
       "pagePath": "pages/about/index",
       "iconPath": "images/footer-icon-04.png",
       "selectedIconPath": "images/footer-icon-04-active.png",
