@@ -30,8 +30,8 @@ Page({
   location: function(){
   	// 经纬度 112.772369,37.677809
   	wx.openLocation({
-      latitude: 112.772369,
-      longitude: 37.677809,
+      latitude: 112.765897,
+      longitude: 37.671959,
       scale: 28,
       name: "福旺整体装修",
       address: "东城家具建材汇展中心"
